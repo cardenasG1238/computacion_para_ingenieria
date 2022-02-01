@@ -40,7 +40,7 @@ elif option == 2:
 #opcion 3 quitar alumno
         
 elif option == 3:
-        alum_quitar = input("Ingrese nombre completo del alumno se quitará:")
+        alum_quitar = input("Ingrese nombre completo del alumno que se eliminara:")
         list.remove(alum_quitar)
         print("Se quitó de la lista a ", alum_quitar)
 # opcion 4 salir        
