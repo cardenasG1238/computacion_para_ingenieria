@@ -16,28 +16,29 @@ while salir !=True:
     
   
     
-    print("----------------------------")
-    print("1.- Listar alumnos")
-    print("2.- Registrar alumno") 
-    print("3.- Quitar alumno")
-    print("4.- Salir")
-    print("----------------------------")
+   print("------------Menu----------------")
+   print("1.- Listar alumnos")
+   print("2.- Registrar alumno") 
+   print("3.- Quitar alumno")
+   print("4.- Salir")
+   print("----------------------------")
     
-    option = int(input("Seleccione una opcion [1-2-3]"))
+   option = int(input("Seleccione una opcion [1-2-3-4]"))
 
-option = int(input("selecione una opcion [1-2-3]:"))
+option = int(input("selecione una opcion [1-2-3-4]:"))
 #opcion 1 list alumno
 if option == 1:
         print("La lista de alumnos es: ")
         for alumno in list:
-            print(alumno)
+         print(alumno)
             
 #opcion 2 agrega alumno
 elif option == 2:
-        new_alumno = input("Ingrese nombre completo del alumno: ")  
-        list.append(new_alumno)
+    new_alumno = input("Ingrese Nombre Completo de Alumno:")
+    list.append(new_alumno)
 
 #opcion 3 quitar alumno
+
         
 elif option == 3:
         alum_quitar = input("Ingrese nombre completo del alumno que se eliminara:")
@@ -47,7 +48,11 @@ elif option == 3:
 elif option == 4: 
         print("bye")
         salir = True
+
 else:
-        print("selecione una opxion correcta")
+    print ("Porfavor ingrese una opcion valida [1, 2, 3, 4]")
+    
+    
+print (f'La opcion selecciona es : {option}')
     
     
