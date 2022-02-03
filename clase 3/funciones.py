@@ -44,6 +44,3 @@ print(lista)
 #elimina el elemnto con el indice 0 res=> elimina el numero 1
 lista.pop(0)
 print(lista)
-
-
-
