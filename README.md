@@ -1,2 +1,2 @@
 # computacion_para_ingenieria
-README_2
+JHESVID CARDENAS GARCIA
