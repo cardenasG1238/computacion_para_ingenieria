@@ -4,8 +4,8 @@ Created on Thu Feb  3 09:21:58 2022
 
 @author: HP
 """
-class TarjetaDeCredito:
-    def __init__(self, banco, codigo, propietario, fechVenc):
+class TarjetaDeCredito :
+    def _init_(self , banco, codigo, propietario, fechVenc):
         self.banco=banco
         self.codigo=codigo
         self.propietario=propietario
